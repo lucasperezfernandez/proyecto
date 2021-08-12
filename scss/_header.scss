@@ -1,0 +1,87 @@
+/* HEADER */
+header{
+    width: 100%;
+    background-image: linear-gradient(to right top, #bdc3c7, #9ba2a7, #7a8188, #5a626a, #3d454e);
+    a{
+        color: white;
+        text-decoration: none;
+
+    }
+    .header--logo {
+        margin-left: 5%;
+        width: auto;
+        animation: slideInLeft;
+        animation-duration: 5s;
+    }
+    .header--container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+
+    .header--nav{
+        animation: slideInRight; 
+        animation-duration: 3s;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                a {
+                    display: block;
+                    padding: 0.5rem 1rem;
+                    transition: all 0.4s linear;
+                }
+            }
+        
+        }
+        
+    }
+    .header--nav ul li a:hover { 
+        background-color: rgba(237, 255, 243, 0.603);
+    }
+}
+
+
+.hamburguesa{
+    
+    width: 100%;
+    background-image: linear-gradient(to right top, #bdc3c7, #9ba2a7, #7a8188, #5a626a, #3d454e);
+    }
+    label{
+        display: none;
+        width: 30px;
+        height: 30px;
+        padding: 30px;
+    }
+    label:hover{
+        cursor: pointer;
+        background: rgba(0,0,0,0.3);
+    }
+    .menu{
+        ul{
+            margin: 0;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        li:hover{
+            background: rgba(0,0,0,0.3);
+        }
+        li{
+            border-right: 1px solid white ;
+            a{
+                display: block;
+                padding: 15px 20px;
+                color: white;
+                text-decoration: none;
+            }
+        }   
+}
+#btn-menu {
+        display: none;
+}

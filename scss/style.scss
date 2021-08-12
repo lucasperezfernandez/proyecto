@@ -1,0 +1,36 @@
+@import 'header';
+@import 'footer';
+@import 'index';
+@import 'viajes';
+@import 'vestimentas';
+@import 'proyecto333';
+@import 'sustentabilidad';
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: rgba(237, 245, 255, 0.603); 
+    font-family: 'Nunito Sans', sans-serif;    color: rgb(0, 0, 0);
+    font-size: 1.3rem ;
+    line-height: 1.6em;
+    margin: 0;
+}
+.titulos {
+    font-family: 'Halant', serif;
+}
+.tituloIndex{
+    animation: fadeInDown;
+    animation-duration: 8s;
+}
+.titulosIndex2{
+    animation: fadeInUp;
+    animation-duration: 8s;
+}
+.video{
+    max-width: 80%
+}
+
+@import 'medias';
+

@@ -1,0 +1,25 @@
+footer{
+    background-image: linear-gradient(to right top, #bdc3c7, #9ba2a7, #7a8188, #5a626a, #3d454e);
+    color: rgb(212, 212, 212);
+    font-size: 0.8rem;
+    text-align: center;
+    height: auto;
+    word-spacing: 1%;
+
+}
+.footer--nav2--socials {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0 0rem 0;
+    li{
+        margin: 0 2%;
+        a{
+            color: rgba(237, 255, 243, 0.603);
+        }
+        a :hover {
+            color: slategray;
+        }
+    }
+}

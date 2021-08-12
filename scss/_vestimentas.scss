@@ -1,0 +1,53 @@
+
+/* VESTIMENTA */
+
+
+.divVestimenta{
+    text-align: center;
+    width: 100%;
+        h1{
+            margin: 5%;
+        }
+}
+
+table {
+    background-color: rgb(219, 217, 217);
+    border: rgb(0, 0, 0);
+}
+
+.gridVesti{
+    display: grid;
+    grid-template-areas: "G1 G2"
+    "G3 G4";
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    justify-items: center;
+    align-items: center;
+    column-gap: 2%;
+    row-gap: 8%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.G1{
+    max-width: 100%;
+}
+.gridVesti p{
+    width: 85%;
+    margin: auto;
+}
+.gv{
+    box-shadow: 0 4px 8px 0 slategray;
+}
+.G3{
+    img{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+

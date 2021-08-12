@@ -1,0 +1,50 @@
+
+
+/* VIAJES */  
+/* HACER RESPONSIVE LOS TEXTOS DEL CAROUSEL */
+
+.carousel-caption{
+    margin-bottom: 32%;
+}
+.carousel-caption h5 {
+    margin-bottom: 5%;
+    font-size: 4rem;
+}
+.cuerpoViaje{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1484320775925-2609d111d8b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1949&q=80);
+}
+
+.cierreViaje{
+    padding-top: 5%;
+    width: 100%;
+    // background-image: url(https://images.unsplash.com/photo-1520720810040-f85066da6d93?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80);
+}
+.cierreViaje-video{
+    text-align: center;
+}
+.cierreViaje-flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 5%;
+    padding-bottom: 5%;
+}
+
+.boxV {
+    box-shadow: 0 4px 8px 0 slategray;
+    align-items: center;
+    background-color: rgba(240, 255, 240, 0.575);
+    margin: 0 5%;
+
+    p{
+        padding: 5%;
+        text-align: center;
+    }
+}
+.boxV:hover {
+    animation: pulse;
+    animation-duration: 4s;
+}

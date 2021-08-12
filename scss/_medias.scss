@@ -1,0 +1,227 @@
+/* medias q */
+
+
+
+
+@media (min-width: 0px) and(max-width: 575.98px){
+    body{
+        background-color: orange;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .index--grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .cierreViaje-flex{
+        flex-direction: column;
+    }
+    .gridVesti{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex333{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .pasos{
+        h2{
+            font-size: 2rem;
+        }
+        display: flex;
+        flex-direction: column;
+        .pasos-der{
+            h2{
+                font-size: 2rem;
+            }
+        }
+    }
+    header{
+        .header--logo{
+            display: none;
+        }
+        .header--nav{
+            display: none;
+        }
+    
+    }
+// HAMBURGUESA
+    header{
+        label{
+            display: block;
+        }
+    }
+    .menu{
+        z-index: 100;
+        position: absolute;
+        background-image: linear-gradient(to right top, #bdc3c7, #9ba2a7, #7a8188, #5a626a, #3d454e);
+        width: 100%;
+        margin-left: -100%;
+        transition: all 1s;
+        ul{
+            flex-direction: column;
+        }
+        li{
+            border-top: 1px solid white;
+        }
+    }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+    .header--logo{
+        display: none;
+    }
+    .header--nav{
+        display: none;
+    }
+
+}
+
+
+// X-Small devices (portrait phones, less than 576px)
+@media (min-width: 575.98px) and(max-width: 767.97px) { 
+    body{
+        background-color: cyan;    
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+    .index--grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .cierreViaje-flex{
+        flex-direction: column;
+    }
+    .gridVesti{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex333{
+        flex-direction: column;
+    }
+    .pasos{
+        h2{
+            font-size: 2rem;
+        }
+        display: flex;
+        flex-direction: column;
+        .pasos-der{
+            h2{
+                font-size: 2rem;
+            }
+        }
+    }
+// HAMBURGUESA
+    header{
+        label{
+            display: block;
+        }
+    }
+    .menu{
+        z-index: 100;
+        position: absolute;
+        background-image: linear-gradient(to right top, #bdc3c7, #9ba2a7, #7a8188, #5a626a, #3d454e);
+        width: 100%;
+        margin-left: -100%;
+        transition: all 1s;
+        ul{
+            flex-direction: column;
+        }
+        li{
+            border-top: 1px solid white;
+        }
+    }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+    .header--logo{
+        display: none;
+    }
+    .header--nav{
+        display: none;
+    }
+
+}
+
+
+
+
+
+
+// Small devices (landscape phones, less than 768px)
+@media (min-width:767.97px) and(max-width: 991.98px) { 
+    body{
+        background-color: rgb(234, 224, 241);
+    }
+
+    h1{
+        font-size:  3rem; 
+    }
+    .pasos{
+        h2{
+            font-size: 2rem;
+        }
+    }
+    .menu{
+        display: none;
+    }
+
+
+}
+// Medium devices (tablets, less than 992px)
+@media (min-width: 991.98px) and(max-width: 1199.98px) { 
+    
+    h1{
+        font-size: 4rem;
+    }
+    .pasos{
+        h2{
+            font-size: 3rem;
+        }
+    }
+    .menu{
+        display: none;
+    }
+}
+
+
+
+
+
+// Large devices (desktops, less than 1200px)
+@media (min-width: 1199.98px) and(max-width: 1399.98px) { 
+    h1{
+        font-size: 5rem;
+    }
+    .menu{
+        display: none;
+    }
+
+}
+
+
+
+// X-Large devices (large desktops, less than 1400px)
+@media (min-width: 1399.98px) {
+    h1{
+        font-size: 5rem;
+    }
+    .menu{
+        display: none;
+    }
+
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width
+
+
+
+
+
+
+

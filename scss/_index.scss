@@ -1,0 +1,69 @@
+
+/* INDEXPRUEBA */
+
+.david{
+    background-repeat: no-repeat;
+    background-image: url(david2.png);
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.iconos{
+    .iconos--grid{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-top: 100px;
+    }
+    ul{
+        list-style: none;
+    }
+    ul li :hover{
+        list-style: none;
+        animation: bounce;
+        animation-duration: 1s;
+    }
+}
+
+.index--grid{
+    display: grid;
+    grid-template-areas: 
+    "A B C"
+    "A D E";
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    justify-items: center;
+    align-items: center;
+    column-gap: 2%;
+    row-gap: 8%;
+    margin-bottom: 15%;
+    .A{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        grid-area: A;
+        box-shadow: 0 4px 8px 0 slategray;
+        height: 100%;
+    }
+    .box {
+        box-shadow: 0 4px 8px 0 slategray;
+        align-items: center;
+    }
+    .box:hover {
+        animation: pulse;
+        animation-duration: 1s;
+    
+    }
+}
+
+
+
