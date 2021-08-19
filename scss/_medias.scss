@@ -45,8 +45,64 @@
         .header--nav{
             display: none;
         }
-    
     }
+
+    .tituloSust{
+        width: 100%;
+        height: 200px;
+        background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+        background-size: 100%;
+        background-size: cover;
+    }
+    .subtitR{
+        h2{
+            text-align: center;
+            font-size: 1.5rem;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            background-color: white;
+            width: 100%;
+        }
+    }
+    
+    .triR{
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-image: url(https://images.unsplash.com/photo-1494216928456-ae75fd96603d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+        background-size: 100%;
+        background-size: cover;
+    }
+    .datos-sust{
+        display: flex;
+        align-items: center;
+        .datos-sust-1{
+            display: flex;
+            flex-direction: column;
+        }
+        .datos-sust-2{
+            display: flex;
+            flex-direction: column;
+        }  
+        .boxSust{
+            width: 90%;
+            align-items: center;
+        }  
+    }
+
+    .gridCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div{
+            width: 90%;
+            margin-top: 2%;
+        }
+    }
+
+
+
 // HAMBURGUESA
     header{
         label{
@@ -115,6 +171,51 @@
             }
         }
     }
+    .tituloSust{
+        width: 100%;
+        height: 300px;
+        background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+        background-size: 100%;
+        background-size: cover;
+    }
+    .subtitR{
+        h2{
+            text-align: center;
+            font-size: 2rem;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            background-color: white;
+            width: 100%;
+        }
+    }
+    .datos-sust{
+        display: flex;
+        align-items: center;
+        
+        .datos-sust-1{
+            display: flex;
+            flex-direction: column;
+        }
+        .datos-sust-2{
+            display: flex;
+            flex-direction: column;
+        }
+        .boxSust{
+            max-width: 90%;
+            align-items: center;
+        }
+    }
+    .gridCol{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        div{
+            width: 90%;
+            margin-top: 2%;
+        }
+    }
+
 // HAMBURGUESA
     header{
         label{
@@ -169,8 +270,11 @@
     .menu{
         display: none;
     }
-
-
+    .gridCol{
+        div{
+            font-size: 1rem;
+        }
+    }
 }
 // Medium devices (tablets, less than 992px)
 @media (min-width: 991.98px) and(max-width: 1199.98px) { 
