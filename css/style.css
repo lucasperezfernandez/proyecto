@@ -36,9 +36,7 @@ header {
 
 label {
   display: none;
-  width: 30px;
-  height: 30px;
-  padding: 30px; }
+  padding: 2%; }
 
 label:hover {
   cursor: pointer;
@@ -99,6 +97,8 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+  .david h3 {
+    margin-top: 15px; }
 
 .iconos .iconos--grid {
   display: flex;
@@ -237,7 +237,7 @@ table {
 
 .body333 .fondoFlex {
   background-image: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
-  background-size: 100%; }
+  background-size: cover; }
 
 .body333 .flex333 {
   color: whitesmoke;
@@ -264,7 +264,7 @@ table {
 
 .body333 .fondoPasos {
   background-color: #030014;
-  background-size: 100%;
+  background-size: cover;
   background-image: url(https://images.unsplash.com/photo-1561701863-bcf2d4d6d859?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80); }
 
 .body333 .pasos {
@@ -296,7 +296,7 @@ table {
 /* RRR */
 .tituloSust {
   width: 100%;
-  height: 800px;
+  height: 700px;
   background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
   background-size: 100%;
   background-size: cover; }
@@ -357,7 +357,7 @@ table {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top: 100px; }
+  padding-top: 15%; }
   .datos-sust h2 {
     text-align: center;
     font-size: 3rem;
@@ -379,8 +379,11 @@ table {
     box-shadow: 0 4px 8px 0 slategray;
     align-items: center;
     text-align: center; }
+    .datos-sust .boxSust h3 {
+      padding-top: 3%; }
     .datos-sust .boxSust p {
-      font-size: 1rem; }
+      font-size: 1rem;
+      padding: 10% 5%; }
 
 .gridCol {
   background-color: white;
@@ -402,7 +405,7 @@ table {
     grid-row: 2/5;
     background-color: rgba(206, 206, 206, 0.705);
     text-align: center;
-    padding-top: 10%; }
+    padding: 10% 5%; }
   .gridCol .gridCol-txt2 {
     grid-column: 3/6;
     grid-row: 8/11;
@@ -410,13 +413,14 @@ table {
     background-size: cover;
     color: white;
     text-align: center;
-    padding-top: 10%; }
+    padding: 10% 5%; }
   .gridCol .gridCol-txt3 {
     background-color: rgba(206, 206, 206, 0.89);
     grid-column: 8/11;
     grid-row: 9/12;
     text-align: center;
-    padding-top: 10%; }
+    padding-top: 10%;
+    padding: 10% 5%; }
 
 * {
   padding: 0px;
@@ -446,13 +450,13 @@ body {
 
 /* medias q */
 @media (min-width: 0px) and (max-width: 575.98px) {
-  body {
-    background-color: orange; }
   h1 {
     font-size: 2rem; }
   .index--grid {
     display: flex;
     flex-direction: column; }
+    .index--grid .box {
+      margin-top: 5%; }
   .cierreViaje-flex {
     flex-direction: column; }
   .gridVesti {
@@ -462,13 +466,13 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%; }
-  .pasos {
+  .pasos h2 {
+    font-size: 1.5rem; }
+  .pasos .pasos-der h2 {
+    font-size: 1.5rem; }
+  .salvar {
     display: flex;
     flex-direction: column; }
-    .pasos h2 {
-      font-size: 2rem; }
-    .pasos .pasos-der h2 {
-      font-size: 2rem; }
   header .header--logo {
     display: none; }
   header .header--nav {
@@ -505,6 +509,8 @@ body {
     .datos-sust .boxSust {
       width: 90%;
       align-items: center; }
+    .datos-sust h2 {
+      font-size: 2rem; }
   .gridCol {
     display: flex;
     flex-direction: column;
@@ -533,13 +539,13 @@ body {
     display: none; } }
 
 @media (min-width: 575.98px) and (max-width: 767.97px) {
-  body {
-    background-color: cyan; }
   h1 {
     font-size: 2rem; }
   .index--grid {
     display: flex;
     flex-direction: column; }
+    .index--grid .box {
+      margin-top: 5%; }
   .cierreViaje-flex {
     flex-direction: column; }
   .gridVesti {
@@ -607,8 +613,12 @@ body {
     display: none; } }
 
 @media (min-width: 767.97px) and (max-width: 991.98px) {
-  body {
-    background-color: #eae0f1; }
+  .tituloSust {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-size: 100%;
+    background-size: cover; }
   h1 {
     font-size: 3rem; }
   .pasos h2 {
@@ -624,7 +634,13 @@ body {
   .pasos h2 {
     font-size: 3rem; }
   .menu {
-    display: none; } }
+    display: none; }
+  .tituloSust {
+    width: 100%;
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-size: 100%;
+    background-size: cover; } }
 
 @media (min-width: 1199.98px) and (max-width: 1399.98px) {
   h1 {
