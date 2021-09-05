@@ -33,14 +33,12 @@
         margin:0 20%;
         .flex333-izq{
             display: flex;
-            flex-wrap: wrap;
             flex-direction: column;
             width: 50%;
             text-align: left;
         }
         .flex333-der{
             display: flex;
-            flex-wrap: wrap;
             flex-direction: column;
             width: 50%;
             text-align: right;
@@ -83,4 +81,52 @@
             }
         }
     }
+}
+
+@media (min-width: 0px) and(max-width: 767.97px) {
+    .fondoFlex{
+        .flex333{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            div{
+                p{
+                    font-size: 1rem;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+    .fondoPasos{
+        .pasos{
+            display: flex;
+            flex-direction:column;
+            padding-top: 15%;
+            padding-bottom: 15%;
+            width: 100%;
+            align-items: center;
+            .pasos-izq {
+                color: whitesmoke;
+                text-align: center;
+                padding-bottom: 80px;
+                h2{
+                    font-size: 2rem;
+                }
+            }
+            .pasos-der{
+                color: rgb(241, 241, 241);
+                text-align: center;
+                h2{
+                    font-size: 6rem;
+                    padding: 60px 0;
+                }
+                p{
+                    font-size: 1rem;
+                    line-height: 25px;
+                }
+            }
+        }
+    
+    }
+
 }
