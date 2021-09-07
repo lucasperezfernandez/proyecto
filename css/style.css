@@ -90,7 +90,7 @@ footer {
 /* INDEXPRUEBA */
 .david {
   background-repeat: no-repeat;
-  background-image: url(Imagenes/david2.png);
+  background-image: url(david2.png);
   height: 900px;
   width: 100%;
   margin: auto;
@@ -121,8 +121,7 @@ footer {
 
 .index--grid {
   display: grid;
-  grid-template-areas: "A B C"
- "A D E";
+  grid-template-areas: "A B C" "A D E";
   text-align: center;
   margin: auto;
   width: 80%;
@@ -156,7 +155,7 @@ footer {
   .mainViajes-grid .mainViajes-grid-titulo {
     grid-column: 1/13;
     grid-row: 1/19;
-    background-image: url(https://images.unsplash.com/photo-1554904780-9ac4bdfa6a69?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80);
+    background-image: url(/css/Imagenes/headerViajes.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     text-align: right; }
@@ -823,7 +822,7 @@ main {
 
 /* 333 */
 .body333 .cabezal {
-  background-image: url(https://images.unsplash.com/photo-1617743220812-6522d771846c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2089&q=80);
+  background-image: url(/css/Imagenes/proyectoTit.jpg);
   width: 100%;
   background-size: 100%;
   text-align: center; }
@@ -836,7 +835,7 @@ main {
     color: #d8d8d8; }
 
 .body333 .fondoFlex {
-  background-image: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80);
+  background-image: url(/css/Imagenes/proyectoMed.jpg);
   background-size: cover; }
 
 .body333 .flex333 {
@@ -863,7 +862,7 @@ main {
 .body333 .fondoPasos {
   background-color: #030014;
   background-size: cover;
-  background-image: url(https://images.unsplash.com/photo-1561701863-bcf2d4d6d859?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2134&q=80); }
+  background-image: url(/css/Imagenes/proyectoFin.jpg); }
 
 .body333 .pasos {
   display: flex;
@@ -934,7 +933,7 @@ main {
 .tituloSust {
   width: 100%;
   height: 700px;
-  background-image: url(https://images.unsplash.com/photo-1493673272479-a20888bcee10?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+  background-image: url(/css/Imagenes/sustTit.jpg);
   background-size: 100%;
   background-size: cover; }
   .tituloSust h1 {
@@ -963,7 +962,7 @@ main {
     height: 300px;
     margin: 2%; }
   .tripleR .reduce {
-    background-image: url(https://images.unsplash.com/photo-1620509048004-415ebb9e2755?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80);
+    background-image: url(/css/Imagenes/susFlex1.jpg);
     background-size: 200px 300px; }
     .tripleR .reduce h2 {
       margin-top: 40%;
@@ -971,7 +970,7 @@ main {
       width: 80%;
       margin-left: 10%; }
   .tripleR .reuse {
-    background-image: url(https://images.unsplash.com/photo-1604631698209-c105c7874ea8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=659&q=80);
+    background-image: url(/css/Imagenes/susFlex2.jpg);
     background-size: 200px 300px; }
     .tripleR .reuse h2 {
       margin-top: 40%;
@@ -979,7 +978,7 @@ main {
       width: 80%;
       margin-left: 10%; }
   .tripleR .recicle {
-    background-image: url(https://images.unsplash.com/photo-1560543899-58ce3bc3c8fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80);
+    background-image: url(/css/Imagenes/susFlex3.jpg);
     background-size: 200px 300px; }
     .tripleR .recicle h2 {
       margin-top: 40%;
@@ -1030,7 +1029,7 @@ main {
     padding: 10px 5px; }
 
 .datos-sust {
-  background-image: url(https://images.unsplash.com/photo-1470399332216-237209aa628e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80);
+  background-image: url(/css/Imagenes/susFin.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -1093,7 +1092,6 @@ main {
     .gridCol .gridCol-txt2 {
       grid-column: 1/5;
       grid-row: 7/10;
-      background-image: url(https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80);
       background-size: cover;
       color: white;
       text-align: center;
@@ -1203,7 +1201,6 @@ main {
     .gridCol .gridCol-txt2 {
       grid-column: 1/4;
       grid-row: 6/8;
-      background-image: url(https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80);
       background-size: cover;
       color: white;
       text-align: center;
