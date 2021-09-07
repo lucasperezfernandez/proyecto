@@ -90,7 +90,7 @@ footer {
 /* INDEXPRUEBA */
 .david {
   background-repeat: no-repeat;
-  background-image: url(david2.png);
+  background-image: url(Imagenes/david2.png);
   height: 900px;
   width: 100%;
   margin: auto;
@@ -121,7 +121,8 @@ footer {
 
 .index--grid {
   display: grid;
-  grid-template-areas: "A B C" "A D E";
+  grid-template-areas: "A B C"
+ "A D E";
   text-align: center;
   margin: auto;
   width: 80%;
