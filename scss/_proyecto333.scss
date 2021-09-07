@@ -34,7 +34,7 @@
         .flex333-izq{
             display: flex;
             flex-direction: column;
-            width: 50%;
+            width: 100%;
             text-align: left;
         }
         .flex333-der{
@@ -129,4 +129,26 @@
     
     }
 
+}
+@media (min-width:767.97px) and(max-width: 991.98px) { 
+    .fondoPasos{
+        .pasos{
+            .pasos-izq {
+                h2{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 991.98px) and(max-width: 1199.98px) { 
+    .fondoPasos{
+        .pasos{
+            .pasos-izq {
+                h2{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
 }

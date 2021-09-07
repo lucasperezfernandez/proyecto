@@ -13,7 +13,8 @@ header {
   header .header--container {
     display: flex;
     justify-content: space-between;
-    align-items: center; }
+    align-items: center;
+    overflow: hidden; }
   header .header--nav {
     animation: slideInRight;
     animation-duration: 3s; }
@@ -139,7 +140,8 @@ footer {
   .index--grid .box {
     box-shadow: 0 4px 8px 0 slategray;
     align-items: center;
-    height: 100%; }
+    height: 100%;
+    padding: 5px; }
   .index--grid .box:hover {
     animation: pulse;
     animation-duration: 1s; }
@@ -281,7 +283,7 @@ footer {
     margin-right: 5px; }
     .mainViajes-flex1 .mainViajes-flex1-box3 p {
       font-size: 1rem;
-      line-height: 15px; }
+      line-height: 17px; }
 
 .mainViajes-grid3 {
   background-color: #1a1a1a;
@@ -848,7 +850,7 @@ main {
   .body333 .flex333 .flex333-izq {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     text-align: left; }
   .body333 .flex333 .flex333-der {
     display: flex;
@@ -918,6 +920,14 @@ main {
       .fondoPasos .pasos .pasos-der p {
         font-size: 1rem;
         line-height: 25px; } }
+
+@media (min-width: 767.97px) and (max-width: 991.98px) {
+  .fondoPasos .pasos .pasos-izq h2 {
+    font-size: 2rem; } }
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  .fondoPasos .pasos .pasos-izq h2 {
+    font-size: 2.5rem; } }
 
 /* RRR */
 .tituloSust {
@@ -1234,6 +1244,9 @@ main {
 * {
   padding: 0px;
   margin: 0px; }
+
+a {
+  text-decoration: none; }
 
 body {
   background-color: rgba(237, 245, 255, 0.603);
